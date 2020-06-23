@@ -9,7 +9,6 @@ const Movie = ({ movie, movieInfo }) => {
   const poster =
     movie.Poster === "N/A" ? DEFAULT_PLACEHOLDER_IMAGE : movie.Poster;
 
-
   return (
     <div className="movie" onClick={()=> movieInfo(movie.Title)} >
       <h3>{movie.Title}</h3>

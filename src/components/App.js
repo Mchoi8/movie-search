@@ -20,8 +20,6 @@ const App = () => { // Func Component
   const [movies, setMovies] = useState([]);
   const [errorMessage, setErrorMessage] = useState(null);
 
-  // const [info, setMovieInfo] = useState('');
-
     useEffect(() => { //Shows a home page of a list of avenger movies by calling the API
     fetch(MOVIE_API_URL)
       .then(response => response.json())
