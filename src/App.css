@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+* {
+  font-family: 'Asap', sans-serif;
+}
+
+
+#modalposter  {
+  float: left;
+  margin-left: 40px;
+  margin-right: 100px;
+  width: 200px;
+  height: 300px;
+}
+
+#header {
+  width: 100%;
+
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(214, 210, 147);
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.spinner {
+  height: 80px;
+  margin: auto;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* new css for movie component */
+
+* {
+  box-sizing: border-box;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.App-header h2 {
+  margin: 0;
+}
+
+.add-movies {
+  text-align: center;
+}
+
+.add-movies button {
+  font-size: 16px;
+  padding: 8px;
+  margin: 0 10px 30px 10px;
+}
+.movies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.movie {
+  padding: 5px 25px 10px 25px;
+  max-width: 25%;
+}
+
+.movie:hover {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.1), 1px 6px 10px 1px rgba(0, 0, 0, 0.19);
+
+}
+
+.errorMessage {
+  margin: auto;
+  font-weight: bold;
+  color: rgb(161, 15, 15);
+}
+
+.searchloading {
+  margin: auto;
+}
+
+
+.search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+
+input[type="text"] {
+  border: 1px solid black;
+}
+
+input[type='text']:focus {
+  background-color: whitesmoke;
+
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: 80px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #282c34;
+  color: rgb(255, 255, 255);
+}
+
+
+.search > input[type="text"]{
+  width: 40%;
+  min-width: 170px;
+}
+
+
+#modal {
+  display: none;
+  justify-content: center;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+}
+
+
+
+
+/* Modal Body */
+#modal-body {
+
+  background-color: white;
+  width: 60%;
+  height: 420px;
+  margin: auto;
+  padding: 2px 16px;
+  border-radius: 5px;
+}
+
+.para {
+  margin-top: 25px;
+  width: 90%;
+}
+
+
+.close {
+  float: right;
+  cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 694px) and (max-width: 915px) {
+  .movie {
+    max-width: 33%;
+  }
+
+  #modal-body {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 652px) and (max-width: 693px) {
+  .movie {
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 651px) {
+  .movie {
+    max-width: 100%;
+    margin: auto;
+  }
+}
