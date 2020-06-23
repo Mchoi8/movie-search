@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mchoi8/movie-search/static/css/main.408bf84b.chunk.css",
+    "main.js": "/Mchoi8/movie-search/static/js/main.643eb35c.chunk.js",
+    "main.js.map": "/Mchoi8/movie-search/static/js/main.643eb35c.chunk.js.map",
+    "runtime-main.js": "/Mchoi8/movie-search/static/js/runtime-main.b8d4591a.js",
+    "runtime-main.js.map": "/Mchoi8/movie-search/static/js/runtime-main.b8d4591a.js.map",
+    "static/js/2.a68a625f.chunk.js": "/Mchoi8/movie-search/static/js/2.a68a625f.chunk.js",
+    "static/js/2.a68a625f.chunk.js.map": "/Mchoi8/movie-search/static/js/2.a68a625f.chunk.js.map",
+    "index.html": "/Mchoi8/movie-search/index.html",
+    "precache-manifest.6d2288db10d36c1eb40c53d125f7966e.js": "/Mchoi8/movie-search/precache-manifest.6d2288db10d36c1eb40c53d125f7966e.js",
+    "service-worker.js": "/Mchoi8/movie-search/service-worker.js",
+    "static/css/main.408bf84b.chunk.css.map": "/Mchoi8/movie-search/static/css/main.408bf84b.chunk.css.map",
+    "static/js/2.a68a625f.chunk.js.LICENSE.txt": "/Mchoi8/movie-search/static/js/2.a68a625f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8d4591a.js",
+    "static/js/2.a68a625f.chunk.js",
+    "static/css/main.408bf84b.chunk.css",
+    "static/js/main.643eb35c.chunk.js"
+  ]
+}
